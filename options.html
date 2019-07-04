@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Oscaron options</title>
+  <script src="cell.js"></script>
+  <script src="jquery-3.1.1.min.js"></script>
+  <style>
+		table {
+			font-family: arial, sans-serif;
+			width: 500px;
+		}
+
+		td, th {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 2px;
+		}
+		
+		td:nth-child(1) {
+			width: 25%;
+		}
+		td:nth-child(4) {
+			width: 40%;
+		}
+
+		tr:nth-child(even) {
+			background-color: #dddddd;
+		}
+  </style>
+</head>
+
+<body>
+	<h1>The Oscaron Watch list</h1>
+  <label for='color'>Default color:</label>
+	<select id="color">
+		<option value="red">red</option>
+		<option value="green">green</option>
+		<option value="blue">blue</option>
+		<option value="yellow">yellow</option>
+		<option value="red">graphite</option>
+	</select>
+	<br>
+	<br>
+	<table>
+		<tr><td><b>Username</b></td><td><b>Icon</b></td><td><b>Color</b></td><td><b>Notes</b></td></tr>
+	</table>
+	<div id='foods'>Twitterati</div>
+	<br>
+	<div id="status"></div>	
+	<br>
+	<button id="save">Save</button>&nbsp;
+	<button id="add">Add</button>&nbsp;
+	<button id="delete">Delete</button>
+	
+	<script src="options.js"></script>
+</body>
+</html>

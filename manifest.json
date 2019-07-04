@@ -1,0 +1,31 @@
+//  manifest.json
+{
+  "manifest_version": 2,
+
+  "name": "The Oscaron",
+  "description": "Tag twitterati with cute glyphs and notes",
+  "version": "1.2",
+  "icons": { 
+	"16": "icon-16.jpg",
+	"48": "icon-48.jpg",
+	"128": "icon-128.jpg" 
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "options.html",
+    "default_title": "The Oscaron"
+  },
+
+  "permissions": ["storage", "*://*.twitter.com/*", "*://twitter.com/*"],
+    
+  "options_page": "options.html",  
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*", "*://twitter.com/*"],
+      "css": ["style.css"],
+      "js": ["jquery-3.1.1.min.js","contentScript.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

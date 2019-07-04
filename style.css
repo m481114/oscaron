@@ -1,0 +1,41 @@
+/* inject.css*/
+.troll {
+  color: red !important;
+  font-size: large;
+}
+
+.troll a:link:not(#exclude), a:visited:not(#exclude) {
+    text-decoration: none;
+    cursor: auto;
+}}
+
+.light {color:#000 !important;background-color:#FFEBEE !important}
+.dark {color:#fff !important;background-color:#B71C1C !important}
+.amber{color:#ffc107 !important}.on-amber{color:#000 !important;background-color:#ffc107 !important}
+.aqua{color:#00ffff !important}.on-aqua{color:#000 !important;background-color:#00ffff !important}
+.blue{color:#2196F3 !important}.on-blue{color:#fff !important;background-color:#2196F3 !important}
+.light-blue{color:#87CEEB !important}.on-light-blue{color:#000 !important;background-color:#87CEEB !important}
+.brown{color:#795548 !important}.on-brown{color:#fff !important;background-color:#795548 !important}
+.cyan{color:#00bcd4 !important}.on-cyan{color:#000 !important;background-color:#00bcd4 !important}
+.blue-grey{color:#607d8b !important}.on-blue-grey{color:#fff !important;background-color:#607d8b !important}
+.green{color:#4CAF50 !important}.on-green{color:#fff !important;background-color:#4CAF50 !important}
+.light-green{color:#8bc34a !important}.on-light-green{color:#000 !important;background-color:#E8F5E8!important}
+.indigo{color:#3f51b5 !important}.on-indigo{color:#fff !important;background-color:#3f51b5 !important}
+.khaki{color:#b4aa50 !important}.on-khaki{color:#000 !important;background-color:#f0e68c !important}
+.lime{color:#cddc39 !important}.on-lime{color:#000 !important;background-color:#cddc39 !important}
+.orange{color:#ff9800 !important}.on-orange{color:#000 !important;background-color:#ff9800 !important}
+.deep-orange{color:#ff5722 !important}.on-deep-orange{color:#fff !important;background-color:#ff5722 !important}
+.light-pink{color:#feedf0 !important}.on-light-pink{color:#000 !important;background-color:#feedf0 !important}
+.pink{color:#e91e63 !important}.on-pink{color:#fff !important;background-color:#e91e63 !important}
+.purple{color:#9c27b0 !important}.on-purple{color:#fff !important;background-color:#9c27b0 !important}
+.deep-purple{color:#673ab7 !important}.on-deep-purple{color:#fff !important;background-color:#673ab7 !important}
+.red{color:#f44336 !important}.on-red{color:#fff !important;background-color:#f44336 !important}
+.sand{color:#fdf5e6 !important}.on-sand{color:#000 !important;background-color:#fdf5e6 !important}
+.teal{color:#009688 !important}.on-teal{color:#fff !important;background-color:#009688 !important}
+.yellow{color:#d2be0e !important}.on-yellow{color:#000 !important;background-color:#ffeb3b !important}
+.white{color:#fff !important}.on-white{color:#000 !important;background-color:#fff !important}
+.black{color:#000 !important}.on-black{color:#fff !important;background-color:#000 !important}
+.grey{color:#757575 !important}.on-grey{color:#000 !important;background-color:#9e9e9e !important}
+.light-grey{color:#f1f1f1 !important}.on-light-grey{color:#000;background-color:#f1f1f1 !important}
+.dark-grey{color:#a9a9a9 !important}.on-dark-grey{color:white;background-color:#a9a9a9 !important}
+.graphite{color:#454545 !important}.on-graphite{color:white;background-color:#454545 !important}
